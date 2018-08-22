@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel = "stylesheet"
+      href = "stylevolunteer.css">
+      <script src="myScript1.js"></script>
+      <script async src="https://static.addtoany.com/menu/page.js"></script>
+  </head>
+  <body>
+    <img id = "logo" class ="center2" src="logi.png" alt="Healthy Eats Logo"  border = "0" width="250" height="150"/>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="volunteer.html">Volunteer</a></li>
+        <li><a href="find_food.html">Find Some Food</a></li>
+        <li><a href="aboutus.html">About the Creators</a></li>
+
+      </ul>
+  <form id = "requests">
+    <div id = "form" >
+    <div id = "form">Name:</div><br>
+    <input id = "name" type="text" name="name">
+    <br>
+    <div id = "form">Email:</div><br>
+    <input id = "email" type="text" name="name">
+    <br>
+    <div id = "form">Veggie Requests?:</div><br>
+    <input id = "veggie" type="text" name="name">
+    <br>
+    <div id = "form">Fruit Requests?:</div><br>
+    <input id = "fruit" type="text" name="name">
+    <br>
+    <div id = "form">Location (Haymarket, Joe Moakely Park, Adams Park):</div><br>
+    <input id = "location" type="text" name="name">
+    <br>
+    <input type="submit" value="Submit">
+  </form>
+<script>
+  document.getElementById("requests").onsubmit=function(){
+    var entries = {};
+    var formitems = document.getElementsByName("name");
+    for(var i = 0; i < formitems.length; i++){
+      var item = formitems[i];
+      var key = item.id;
+      var val = item.value;
+      entries[key] = val;
+    }
+  };
+</script>
+
+
+<font color="black">
+
+    <footer class="social-footer">
+      <div class="social-footer-left">
+        <font color="white">
+        <div class = "hebos"> Connect With Healthy Eats Boston</div>
+      </div>
+      <div class="gap-20"></div>
+      <div class="social-footer-icons">
+        <ul class="menu simple">
+          <li><a href="https://www.facebook.com/healthyeats.boston.5"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+          <li><a href="mailto:healthyeatsboston@gmail.com"><i class="fa fa-google" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+    </footer>
+
+
+      </body>
+    </html>

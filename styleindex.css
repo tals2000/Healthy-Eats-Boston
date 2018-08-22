@@ -1,0 +1,250 @@
+#header {
+  float:center;
+  width:93em;
+  height:20em;
+  background: url(F.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  clear: both;
+  margin-right: 10px;
+  margin-left:10px;
+}
+
+#logo4{
+  align: center;
+  position: relative;
+  top: -45px;
+  width: 630px;
+}
+.logo4{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  top: -5px;
+}
+
+body {
+    background-color: white;
+    font-size: 15px;
+    color: white;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 10px;
+    margin-left:10px;
+}
+
+#menu{
+  width: 100%;
+  clear: both;
+  margin-right: 10px;
+  margin-left:10px;
+
+}
+
+
+ul {
+    background-color: #268c56;
+    clear: both;
+    clear: bottom;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    float: left;
+    width: 97.5%;
+    margin-right: 0px;
+    margin-left:0px;
+    padding-left: 10px;
+
+}
+
+li {
+    float: left;
+
+}
+
+li a {
+    font-family: verdana;
+    font-weight:normal;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #288362;
+}
+
+ul.active{
+  background-color: #95C57B;
+}
+
+.active {
+    background-color: #1E5943;}
+
+#about{font-family: verdana;
+    font-size: 30px;
+    margin-top: 100px;
+    margin-right: 200px;
+    margin-left: 200px;
+    color: black;
+    text-align: center;
+    clear: both;}
+
+#text1{word-spacing: 15em;
+        text-align: center;}
+#text2{word-spacing: 15em;
+        text-align: center;}
+#text3{word-spacing: 15em;
+        text-align: center;}
+#imagesyo{
+  align:center;
+}
+#hand{
+  border-color: white;
+
+}
+#radish{
+  border-color: white;
+
+}
+#truck{
+  border-color: white;
+
+}
+
+
+
+
+.facebook {
+  background: #8600b3;
+  color: white;
+}
+
+
+
+.google {
+  background: #ff471a;
+  color: white;
+}
+
+
+
+.content {
+  margin-left: 75px;
+  font-size: 30px;
+}
+
+#blockright{
+  width: 60%;
+  font-family: verdana;
+  font-size: 20px;
+  height:200%;
+  color: black;
+  position: relative;
+  display: table;
+  float: center;
+  text-align: center;
+  margin-right: 200px;
+  margin-left: 275px;
+  clear: both;
+
+
+}
+
+.social-footer {
+  padding: 1rem;
+  bottom: 0;
+  background: #268c56;
+  display: -webkit-flex;
+  font-family: verdana;
+  margin-right: 10px;
+  margin-left: 10px;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.social-footer .social-footer-icons li:last-of-type {
+  margin-right: 0;
+}
+
+.social-footer .social-footer-icons .fa {
+  font-size: 1.3rem;
+  color: #fefefe;
+
+}
+
+.social-footer .social-footer-icons .fa:hover {
+  color: #4a4a4a;
+  transition: color 0.3s ease-in;
+}
+.container {
+  position: relative;
+  width: 30%;
+  height: 40%;
+  display: inline-block;
+  margin-top: 50px;
+}
+
+.image {
+  display: block;
+  padding: 10px;
+  float: center;
+  width: 40%;
+  height: 40%;
+  padding: 0px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom:100px;
+  display: inline-block;
+  margin-top: 50px;
+
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 70%;
+  width: 50%;
+  opacity: 0;
+  transition: .5s ease;
+  margin-left: 170px;
+  margin-right: 200px;
+  background-color: #268c56;
+  display: inline-block;
+  float: center;
+  padding: 10px;
+  margin-top: 50px;
+
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  font-family: verdana;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
